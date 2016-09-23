@@ -4,6 +4,10 @@ html {
   font-size: 100%;
   color: #000;
   margin: 0;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 *, *::before, *::after {
@@ -54,7 +58,7 @@ article {
   padding-bottom: 1rem;
 }
 
-.btn {
+a {
   font-family: sans-serif;
   text-align: center;
   padding-top: 0.5rem;
@@ -70,7 +74,7 @@ article {
   border-color: #555;
 }
 
-.btn:hover {
+a:hover {
   background-color: #000;
   border-color: #000;
 }
