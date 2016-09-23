@@ -119,6 +119,7 @@ article {
   article {
     max-width: 1200px;
     margin: auto;
+    padding-top: 2rem;
   }
 
 }
