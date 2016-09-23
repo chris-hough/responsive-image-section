@@ -104,7 +104,6 @@ article {
   }
 
   article {
-    padding-top: 2rem;
     padding-bottom: 2rem;
   }
 
@@ -118,7 +117,7 @@ article {
   }
 
   article {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
   }
 
