@@ -66,6 +66,11 @@ article {
   border-color: #555;
 }
 
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
+}
+
 @media only screen and (min-width: 25em) {
 }
 
