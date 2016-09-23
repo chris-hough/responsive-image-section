@@ -26,6 +26,10 @@ html {
   padding-top: 0;
 }
 
+body {
+  margin: 0;
+}
+
 h1 {
   font-size: 1.5em;
 }
@@ -72,6 +76,11 @@ article {
 }
 
 @media only screen and (min-width: 25em) {
+
+  article {
+    vertical-align: middle;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -79,19 +88,26 @@ article {
   .img-flex {
     width: 48%;
     display: inline-block;
+    vertical-align: middle;
   }
 
   .text {
     width: 48%;
     display: inline-block;
     text-align: left;
-    vertical-align: top;
+    vertical-align: middle;
   }
 
   html {
     line-height: 1.4;
     font-size: 110%;
   }
+
+  article {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -102,10 +118,8 @@ article {
   }
 
   article {
-    padding: 2rem;
     max-width: 900px;
     margin: auto;
-    vertical-align: middle;
   }
 
 }
