@@ -73,13 +73,14 @@ article {
 
   .img-flex {
     width: 48%;
-    float: right;
+    display: inline-block;
   }
 
   .text {
-    float: left;
     width: 48%;
-    vertical-align: middle;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
   }
 
   html {
